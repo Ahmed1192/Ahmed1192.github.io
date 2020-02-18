@@ -1,0 +1,71 @@
+.container{
+ margin:auto;
+    height:100%;
+    background-color: ;
+}
+.header{
+    text-align: center;
+    height:100px;
+    background-color:chartreuse;
+    
+}
+h1{
+ 
+ color:white;
+ font-family: serif;
+ display: inline;
+  height:100px;
+ line-height: 2.0;
+}
+ul{ 
+    list-style-type:none;
+    
+}
+a{
+    color:white;
+
+}
+li a{
+    font-size:20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right:0px; 
+    margin-bottom: 90px;
+    height: 35px;
+    display:block;
+    border-style:solid;
+    border-color:chartreuse;
+    padding: 5px;
+    background-color:dodgerblue;
+    width:150px;
+}
+li a:hover{
+    background-color: aliceblue;
+    border-color: dodgerblue;
+    color:chartreuse;
+}
+.nav{
+
+    float:left;
+    background-color:aqua;
+    height: 100%;
+    width:250px
+    
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+hr{
+    max-width:900px;
+     border-color: white;
+}
+.main{
+    background-image:url(forest.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    color:chartreuse;
+}
+
