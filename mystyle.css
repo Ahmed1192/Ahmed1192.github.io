@@ -1,0 +1,89 @@
+body , html{
+    height:100%;
+    margin:0;
+}
+.container{
+ margin:auto;
+    height:100%;
+}
+.header{
+    text-align: center;
+    height:200px;
+    background-image:url(Plant%20hedge%20bush%20leaf%20leaves%20texture.jpg);
+}
+.title{
+    background-color:#08570d;
+    text-align: center;
+    margin:auto;
+    height:70px;
+    line-height:1.5;
+}
+.main{
+    background-image:url(forest.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    color:white;
+}
+.content{
+    margin:auto;
+    background-color: rgba(0,0,0, 0.7);
+    height: 100%;
+    width:100%;
+    text-align: center;
+}
+h1{
+ color:white;
+ font-family: sans-serif;
+ display: inline;
+  height:100px;
+ line-height: 2.0;
+font-size:50px
+}
+h2{
+margin-top:0;
+margin-bottom:0;
+color:white;
+font-family: sans-serif;
+font-size:40px
+}
+p{
+    font-size:30px;
+    text-align: left;
+}
+a{
+    color:white;
+    font-size:35px;
+    border:solid 5px;
+    border-radius:100px;
+    border-top-left-radius:90px;
+    text-decoration:none;
+    background-color:#00bd03;
+    padding: 4px;
+    margin:30px;
+}
+
+.header a {
+    border: 5px solid;
+    padding:8px;
+    background-color:#00bd03;
+    margin:70px;
+    margin-top:10px;
+    width:200px;
+    height:50px;
+    text-align:center;
+    line-height:75px;
+    text-decoration: none;
+    font-family:sans-serif;
+    border-radius:100px;
+    border-top-left-radius:90px;
+
+}
+hr{
+    max-width:900px;
+     border-color: white;
+}
+img {
+    width: 70%;
+    height:65.9%; 
+}
