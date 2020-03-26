@@ -3,87 +3,155 @@ body , html{
     margin:0;
 }
 .container{
- margin:auto;
-    height:100%;
+margin:auto;
+height:100%;
 }
-.header{
-    text-align: center;
-    height:200px;
-    background-image:url(Plant%20hedge%20bush%20leaf%20leaves%20texture.jpg);
-}
-.title{
-    background-color:#08570d;
-    text-align: center;
-    margin:auto;
-    height:70px;
-    line-height:1.5;
-}
-.main{
-    background-image:url(forest.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    height:100%;
-    color:white;
-}
-.content{
-    margin:auto;
-    background-color: rgba(0,0,0, 0.7);
-    height: 100%;
+.nav{
+    position: absolute;
+    top:30px;
+    height:98px;
+    background-color:rgb(255,255,255,0.9);
     width:100%;
-    text-align: center;
 }
-h1{
- color:white;
- font-family: sans-serif;
- display: inline;
-  height:100px;
- line-height: 2.0;
-font-size:50px
-}
-h2{
-margin-top:0;
-margin-bottom:0;
-color:white;
-font-family: sans-serif;
-font-size:40px
-}
-p{
-    font-size:30px;
-    text-align: left;
-}
-a{
-    color:white;
-    font-size:35px;
-    border:solid 5px;
-    border-radius:100px;
-    border-top-left-radius:90px;
-    text-decoration:none;
-    background-color:#00bd03;
-    padding: 4px;
-    margin:30px;
+* {box-sizing:border-box}
+/* Slideshow container */
+.slideshow-container {
+  width:100%;
+  position: relative;
+  margin: auto;
 }
 
-.header a {
-    border: 5px solid;
-    padding:8px;
-    background-color:#00bd03;
-    margin:70px;
-    margin-top:10px;
-    width:200px;
-    height:50px;
-    text-align:center;
-    line-height:75px;
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  height:100px; 
+  width: 55px;
+  margin-top: -22px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 38px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  margin-left:97%;
+  margin-right:0px;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+    margin-right: 0px;
+    margin-left:0px; 
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+ /*  bottom: 8px; */
+  width: 100%;
+  text-align: left;
+}
+
+/* Number text (1/3 etc) 
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}*/
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px; 
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.pages{
     text-decoration: none;
-    font-family:sans-serif;
-    border-radius:100px;
-    border-top-left-radius:90px;
-
+    color:black;
+    font-size:35px;
+    font-family: 'Agency FB', arial;
+    margin-left:50px;
+    display:inline-block ;
+    text-align: center;
+    padding-bottom:23px;
+    padding-top:34px;
+    padding-right:55px;
+    padding-left:55px
+    
 }
-hr{
-    max-width:900px;
-     border-color: white;
+#home{
+    margin-left:30px;
+    text-decoration: none;
+    color:white;
+    font-size:70px;
+    font-family: 'Agency FB', arial;    
+    background-color: rgba(0, 185, 255, 1);
+    padding-bottom:25px;
+    padding-top:15px;
+    padding-right:15px;
+    padding-left:15px;
+    
 }
-img {
-    width: 70%;
-    height:63%; 
+img{
+    width:100%;
+}
+#wave{
+    position: absolute;
+    top: 700px;
+    width:2000px;
+}
+.pages:hover{
+    background-color:rgba(0, 0,0, 1);
+    transition:0.6s;
+    color: white;
+    
 }
